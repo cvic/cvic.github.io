@@ -12,7 +12,7 @@ https://cvic.github.io
 (defn Y [f] (#(% %) #(f (fn [&amp; args] (apply (% %) args)))))
 </description>
 <lastBuildDate>
-Sat, 04 Nov 2017 23:38:48 +0200
+Sat, 04 Nov 2017 23:49:29 +0200
 </lastBuildDate>
 <generator>
 clj-rss
