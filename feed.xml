@@ -12,17 +12,17 @@ https://cvic.github.io
 (defn Y [f] (#(% %) #(f (fn [&amp; args] (apply (% %) args)))))
 </description>
 <lastBuildDate>
-Sat, 04 Nov 2017 23:16:56 +0200
+Sat, 04 Nov 2017 23:38:48 +0200
 </lastBuildDate>
 <generator>
 clj-rss
 </generator>
 <item>
 <guid>
-https://cvic.github.io/posts-output/2017-11-04-lorem-ipsum/
+https://cvic.github.io/blog/2017-11-04-lorem-ipsum/
 </guid>
 <link>
-https://cvic.github.io/posts-output/2017-11-04-lorem-ipsum/
+https://cvic.github.io/blog/2017-11-04-lorem-ipsum/
 </link>
 <title>
 Can't First Post!
