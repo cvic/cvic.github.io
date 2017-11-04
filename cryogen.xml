@@ -3,16 +3,16 @@
 <channel>
 <atom:link href='https://cvic.github.io' rel='self' type='application/rss+xml'/>
 <title>
-Random Clojure scrap
+My Clojure scrapblog
 </title>
 <link>
 https://cvic.github.io
 </link>
 <description>
-(map #(* 2 %) (range 1 10))
+(defn Y [f] (#(% %) #(f (fn [&amp; args] (apply (% %) args)))))
 </description>
 <lastBuildDate>
-Sat, 04 Nov 2017 23:00:28 +0200
+Sat, 04 Nov 2017 23:16:56 +0200
 </lastBuildDate>
 <generator>
 clj-rss
